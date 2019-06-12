@@ -41,7 +41,7 @@ public class GetNameHandler implements PojoRequestHandler<JSONObject, JSONObject
         String linkName = "";
         eventObj.put("routeVariable", "0");
 
-        // ansj分词标记中文人名
+        // ansj 分词标记中文人名
         ToAnalysis toAnalysis = new ToAnalysis();
         Result result = toAnalysis.parse(slotValue);
         for (org.ansj.domain.Term term: result.getTerms()) {
