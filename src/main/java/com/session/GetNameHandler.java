@@ -14,10 +14,10 @@ import org.ansj.splitWord.analysis.ToAnalysis;
 import java.util.List;
 
 /**
- * Created by weili on 2018/8/2.
+ * Created by zxj on 2019/6/10.
  *
- * @author weili
- * @date 2018/08/02
+ * @author zxj
+ * @date 2019/6/10
  */
 public class GetNameHandler implements PojoRequestHandler<JSONObject, JSONObject> {
     @Override
